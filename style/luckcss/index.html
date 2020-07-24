@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="luck.css">
+</head>
+<style>
+  .head{
+    height: 70px;border: 1px solid red;
+  }
+  .head > div{
+    border: 1px solid green;
+  }
+
+  .head-1{
+    height: 70px;border: 1px solid red;
+  }
+  .head-1 > div{
+    height: 40px;border: 1px solid green;
+  }
+
+
+  .head-2{
+    height: 70px;border: 1px solid red;
+  }
+  .head-2 > div{
+    height: 40px;border: 1px solid green;
+  }
+</style>
+<body>
+  <div class="head d-box d-box-center-y d-box-justify">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+
+  <div class="head-1 d-flex flex-center-x flex-center-y">
+    <div class="flex-self-top">1</div>
+    <div class="flex-1">2</div>
+    <div>3</div>
+  </div>
+
+  <div class="head-2 d-flex jc-between">
+    <div>1</div>
+    <div>2</div>
+  </div>
+
+  <div class="head-2 d-flex flex-center-y flex-center-x">
+    <div>1</div>
+    <div>2</div>
+  </div>
+
+
+  <div class="head-1 d-flex d-flex-column" style="height: 200px;">
+    <div class="flex-self-right">1dsadsadsadsadsad </div>
+    <div class="flex-1">2</div>
+    <div class="flex-self-left">3</div>
+  </div>
+</body>
+</html>

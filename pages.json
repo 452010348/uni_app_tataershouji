@@ -1,0 +1,345 @@
+{
+	// 参考: https://uniapp.dcloud.io/collocation/pages
+	"pages": [
+		// 自己框架
+		{"path": "pages/index/index","style": {
+			"navigationBarTitleText": "首页",
+			"app-plus": {
+				"titleNView": {
+					"type": "transparent"
+				}
+			},
+			// 开启下拉刷新
+			"enablePullDownRefresh": true
+		}},
+		{"path": "pages/phone/phone","style": {
+			// "navigationBarTitleText": "塔塔二手机",
+			"navigationBarTitleText": "",
+			"navigationStyle": "custom",
+			"app-plus": {
+				"titleNView": false,
+				"animationType": "slide-in-bottom"
+			}
+		}},
+		{"path": "pages/yanSeparator/yanSeparator","style": {
+			// "navigationBarTitleText": "塔塔严选机",
+			"navigationBarTitleText": "",
+			"navigationStyle": "custom",
+			"app-plus": {
+				"titleNView": false,
+				"animationType": "slide-in-bottom"
+			}
+		}},
+		{"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+
+	
+		{"path": "pages/public/equipment_details","style": {"navigationBarTitleText": "设备详情"}},
+		{"path": "pages/public/equipment_details_yanSeparator","style": {"navigationBarTitleText": "设备详情"}},
+		{"path": "pages/public/select_the_city","style": {"navigationBarTitleText": "选择城市"}},
+		{"path": "pages/recruit/recruit","style": {"navigationBarTitleText": "社区"}},
+		{"path": "pages/recruit/critic","style": {"navigationBarTitleText": "评论"}},
+		
+		{"path": "pages/user/user","style": {"navigationBarTitleText": "我的"}},
+		{"path": "pages/user/edit","style": {"navigationBarTitleText": "编辑"}},
+
+		{"path": "pages/user/issueFacility","style": {"navigationBarTitleText": "发布设备"}},
+		{"path": "pages/user/issueInvitation","style": {"navigationBarTitleText": "发布帖子"}},
+		{"path": "pages/user/issueMachine","style": {"navigationBarTitleText": "发布严选机"}},
+		
+		{"path": "pages/user/myFacility","style": {"navigationBarTitleText": "发布的设备"}},
+		{"path": "pages/user/myInvitation","style": {"navigationBarTitleText": "发布的帖子"}},
+		{"path": "pages/user/myMachine","style": {"navigationBarTitleText": "发布的严选机"}},
+		
+		{"path": "pages/user/myCollect","style": {"navigationBarTitleText": "我的收藏"}},
+		{"path": "pages/user/myAttention","style": {"navigationBarTitleText": "我关注的人"}},
+		
+		{"path": "pages/user/about","style": {"navigationBarTitleText": "关于塔塔"}},
+
+
+		
+		
+		
+		
+		
+		//colorui 框架
+		{"path": "style/colorui/pages/index/index","style": {}},
+		{"path": "style/colorui/pages/basics/layout","style": {}},
+		{"path": "style/colorui/pages/basics/background","style": {}},
+		{"path": "style/colorui/pages/basics/text","style": {}},
+		{"path": "style/colorui/pages/basics/icon","style": {}},
+		{"path": "style/colorui/pages/basics/button","style": {}},
+		{"path": "style/colorui/pages/basics/design","style": {}},
+		{"path": "style/colorui/pages/basics/tag","style": {}},
+		{"path": "style/colorui/pages/basics/avatar","style": {}},
+		{"path": "style/colorui/pages/basics/progress","style": {}},
+		{"path": "style/colorui/pages/basics/shadow","style": {}},
+		{"path": "style/colorui/pages/basics/loading","style": {}},
+		{"path": "style/colorui/pages/component/bar","style": {}},
+		{"path": "style/colorui/pages/component/nav","style": {}},
+		{"path": "style/colorui/pages/component/list","style": {}},
+		{"path": "style/colorui/pages/component/card","style": {}},
+		{"path": "style/colorui/pages/component/form","style": {}},
+		{"path": "style/colorui/pages/component/timeline","style": {}},
+		{"path": "style/colorui/pages/component/chat","style": {}},
+		{"path": "style/colorui/pages/component/swiper","style": {}},
+		{"path": "style/colorui/pages/component/modal","style": {}},
+		{"path": "style/colorui/pages/component/steps","style": {}}, 
+		{"path": "style/colorui/pages/plugin/indexes","style": {}}, 
+		{"path": "style/colorui/pages/plugin/animation","style": {}}, 
+		{"path": "style/colorui/pages/plugin/drawer","style": {}}, 
+		{"path": "style/colorui/pages/plugin/verticalnav","style": {}}
+		//colorui 框架
+		,
+		
+		
+		
+		// 电商 框架 模板
+		{
+			"path": "style/ec/pages/index/index",
+			"style": {
+				// #ifdef MP 
+				"navigationBarTitleText": "Dloud商城",
+				//"navigationStyle": "custom",
+				// #endif 
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"searchInput": {
+							"backgroundColor": "rgba(231, 231, 231,.7)",
+							"borderRadius": "16px",
+							"placeholder": "请输入地址 如：大钟寺",
+							"disabled": true,
+							"placeholderColor": "#606266"
+						},
+						"buttons": [{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue60d",
+								"fontSize": "26",
+								"color": "#303133",
+								"float": "left",
+								"background": "rgba(0,0,0,0)"
+							},
+							{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue744",
+								"fontSize": "27",
+								"color": "#303133",
+								"background": "rgba(0,0,0,0)",
+								"redDot": true
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "style/ec/pages/product/product",
+			"style": {
+				"navigationBarTitleText": "详情展示",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "style/ec/pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+
+		{
+			"path": "style/ec/pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		}, {
+			"path": "style/ec/pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "style/ec/pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+	}, {
+			"path": "style/ec/pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				// #ifdef MP
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue60f",
+								"fontSize": "24",
+								"color": "#303133",
+								"width": "46px",
+								"background": "rgba(0,0,0,0)"
+							},
+							{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue744",
+								"fontSize": "28",
+								"color": "#303133",
+								"background": "rgba(0,0,0,0)",
+								"redDot": true
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "style/ec/pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "style/ec/pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "style/ec/pages/money/money",
+			"style": {}
+		}, {
+			"path": "style/ec/pages/order/createOrder",
+			"style": {
+				"navigationBarTitleText": "创建订单"
+			}
+		}, {
+			"path": "style/ec/pages/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		}, {
+			"path": "style/ec/pages/address/addressManage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "style/ec/pages/money/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "style/ec/pages/money/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		}
+	    ,{
+            "path" : "style/ec/pages/notice/notice",
+            "style" : {
+				"navigationBarTitleText": "通知"
+			}
+        }
+        ,{
+            "path" : "style/ec/pages/category/category",
+            "style" : {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "style/ec/pages/product/list",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品列表"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#fa436a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/phone/phone",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "二手机"
+			},
+			{
+				"pagePath": "pages/yanSeparator/yanSeparator",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "严选机"
+			},
+			{
+				"pagePath": "pages/recruit/recruit",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "招工"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "我的"
+			}
+			// ,
+			// {
+			// 	"pagePath": "style/ec/pages/category/category",
+			// 	"iconPath": "static/tab-cate.png",
+			// 	"selectedIconPath": "static/tab-cate-current.png",
+			// 	"text": "分类"
+			// },
+			// {
+			// 	"pagePath": "style/ec/pages/cart/cart",
+			// 	"iconPath": "static/tab-cart.png",
+			// 	"selectedIconPath": "static/tab-cart-current.png",
+			// 	"text": "购物车"
+			// },
+			// {
+			// 	"pagePath": "style/ec/pages/user/user",
+			// 	"iconPath": "static/tab-my.png",
+			// 	"selectedIconPath": "static/tab-my-current.png",
+			// 	"text": "我的"
+			// }
+		]
+	}
+}
